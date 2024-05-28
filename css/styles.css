@@ -82,40 +82,40 @@ a:hover {
     text-decoration: underline;
 }
 
-#about, #skills {
+#about, #skills, #experience {
     padding: 50px 20px;
     position: relative;
     text-align: center;
 }
 
-.about-content, .skills-content {
+.about-content, .skills-content, .experience-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.about-content .side-image, .skills-content .side-image {
+.about-content .side-image, .skills-content .side-image, .experience-content .side-image {
     flex: 1;
     max-width: 200px;
 }
 
-.about-content .side-image img, .skills-content .side-image img {
+.about-content .side-image img, .skills-content .side-image img, .experience-content .side-image img {
     width: 100%;
     height: auto;
 }
 
-.about-content .about-text, .skills-content .skills-text {
+.about-content .about-text, .skills-content .skills-text, .experience-content .experience-text {
     flex: 2;
     padding: 0 20px;
     max-width: 600px;
 }
 
-.about-text h2, .skills-text h2 {
+.about-text h2, .skills-text h2, .experience-text h2 {
     font-size: 2em;
     margin-bottom: 20px;
 }
 
-.about-text p, .skills-text p {
+.about-text p, .skills-text p, .experience-text p {
     font-size: 1.2em;
     margin: 10px 0;
 }
@@ -152,17 +152,41 @@ a:hover {
     border-radius: 5px 0 0 5px;
 }
 
-footer {
-    padding: 20px 0;
+.experience-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience-content .education, .experience-content .experience {
+    width: 80%;
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 40px;
+    margin: 0;
+    list-style: none;
+}
+
+.timeline-item {
+    margin: 20px 0;
+}
+
+.timeline-year {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
     color: #f2b13f;
-    background-color: #162336;
 }
 
-footer a {
-    color: #d0b1f4;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
+.timeline-content {
+    display: inline-block;
+    font-size: 1.2em;
+    vertical-align: top;
+    width: calc(100% - 120px);
+    text-align: left;
 }
