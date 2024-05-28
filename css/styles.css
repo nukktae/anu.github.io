@@ -1,54 +1,87 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #1A1A2E;
+    color: #EDEDED;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-}
-header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 1em;
     text-align: center;
 }
+
+header {
+    background-color: #0F3460;
+    padding: 1em;
+}
+
+header h1 {
+    margin: 0;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
 }
+
 nav ul li {
     display: inline;
     margin-right: 1em;
 }
-main {
-    padding: 2em;
+
+nav ul li a {
+    color: #EDEDED;
+    text-decoration: none;
 }
-#hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2em;
-    background-color: #f1f1f1;
-    border-radius: 10px;
-}
-#hero .content {
-    max-width: 50%;
-}
-#hero .illustration img {
-    max-width: 100%;
-    border-radius: 10px;
-}
-#features {
-    display: flex;
-    justify-content: space-around;
+
+section {
     padding: 2em 0;
 }
-.feature {
-    text-align: center;
-    max-width: 30%;
+
+#home img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1em;
 }
+
+.button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #F3722C;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill {
+    margin-bottom: 1em;
+}
+
+.skill img {
+    width: 30px;
+    margin-right: 1em;
+}
+
+.bar {
+    background-color: #3D5A80;
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.level {
+    background-color: #F3722C;
+    height: 100%;
+    border-radius: 10px;
+}
+
 footer {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
+    background-color: #0F3460;
     padding: 1em;
     position: fixed;
     width: 100%;
