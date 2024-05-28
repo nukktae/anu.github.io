@@ -184,22 +184,35 @@ a:hover {
 .timeline-item {
     margin: 20px 0;
     position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.timeline-icon {
+    width: 20px;
+    height: 20px;
+    background-color: #f2b13f;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.timeline-content {
+    margin-left: 40px;
+    text-align: left;
 }
 
 .timeline-year {
     font-size: 1.2em;
     font-weight: bold;
-    display: inline-block;
-    width: 100px;
     color: #f2b13f;
+    display: block;
 }
 
-.timeline-content {
-    display: inline-block;
-    font-size: 1.2em;
-    vertical-align: top;
-    width: calc(100% - 120px);
-    text-align: left;
+.timeline-content p {
     color: #fff;
 }
 
