@@ -82,40 +82,86 @@ a:hover {
     text-decoration: underline;
 }
 
-#about {
+#about, #skills {
     padding: 50px 20px;
     position: relative;
     text-align: center;
 }
 
-.about-content {
+.about-content, .skills-content {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.about-content .side-image {
+.about-content .side-image, .skills-content .side-image {
     flex: 1;
     max-width: 200px;
 }
 
-.about-content .side-image img {
+.about-content .side-image img, .skills-content .side-image img {
     width: 100%;
     height: auto;
 }
 
-.about-content .about-text {
+.about-content .about-text, .skills-content .skills-text {
     flex: 2;
     padding: 0 20px;
     max-width: 600px;
 }
 
-.about-text h2 {
+.about-text h2, .skills-text h2 {
     font-size: 2em;
     margin-bottom: 20px;
 }
 
-.about-text p {
+.about-text p, .skills-text p {
     font-size: 1.2em;
     margin: 10px 0;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    margin: 10px 0;
+}
+
+.skill-label {
+    width: 20%;
+    text-align: left;
+}
+
+.skill-bar {
+    width: 75%;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 10px;
+    background-color: #f2b13f;
+    border-radius: 5px 0 0 5px;
+}
+
+footer {
+    padding: 20px 0;
+    color: #f2b13f;
+    background-color: #162336;
+}
+
+footer a {
+    color: #d0b1f4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
