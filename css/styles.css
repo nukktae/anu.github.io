@@ -90,7 +90,7 @@ a:hover {
 
 .about-content, .skills-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -135,7 +135,8 @@ a:hover {
 
 .skill-label {
     width: 20%;
-    text-align: left;
+    text-align: right;
+    padding-right: 10px;
 }
 
 .skill-bar {
