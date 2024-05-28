@@ -167,6 +167,12 @@ a:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.language-box {
+    grid-column: span 1;
+    justify-self: end;
+    max-width: 250px;
+}
+
 .section-box h2 {
     font-size: 2em;
     margin-bottom: 20px;
@@ -193,10 +199,16 @@ a:hover {
     background-color: #f2b13f;
     border-radius: 50%;
     position: absolute;
-    left: -10px;
+    left: -30px;
     top: 0;
     bottom: 0;
     margin: auto;
+}
+
+.timeline-icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
 
 .timeline-content {
