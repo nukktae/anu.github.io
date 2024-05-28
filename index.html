@@ -3,48 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>My Portfolio</h1>
+        <h1>PORTFOLIO</h1>
         <nav>
             <ul>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#skills">Skills</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section id="hero">
-            <div class="content">
-                <h2>I am a multimedia designer</h2>
-                <p>I like all the things of design!</p>
-                <button>Click here to know more about me!</button>
+    <section id="home">
+        <img src="images/avatar.png" alt="Avatar">
+        <h2>I am a multimedia designer</h2>
+        <p>I like all the things of design!</p>
+        <a href="#about" class="button">Click here to know <span>About Me</span></a>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, my name is Anu a multimedia student. I love everything of design and this is how I look in 2D animation hahahaha. Let's click <a href="#skills">here</a> to see what skills that I have!</p>
+    </section>
+    <section id="skills">
+        <h2>What My Design Skills Included</h2>
+        <div class="skills">
+            <div class="skill">
+                <img src="images/ai.png" alt="AI">
+                <div class="bar"><div class="level" style="width: 80%;"></div></div>
             </div>
-            <div class="illustration">
-                <img src="images/illustration.jpg" alt="Illustration">
+            <div class="skill">
+                <img src="images/ps.png" alt="PS">
+                <div class="bar"><div class="level" style="width: 90%;"></div></div>
             </div>
-        </section>
-        <section id="features">
-            <div class="feature">
-                <img src="images/icon1.png" alt="Icon 1">
-                <p>Detailed lessons packed with ...</p>
+            <div class="skill">
+                <img src="images/pr.png" alt="PR">
+                <div class="bar"><div class="level" style="width: 70%;"></div></div>
             </div>
-            <div class="feature">
-                <img src="images/icon2.png" alt="Icon 2">
-                <p>Engaging audio featuring ...</p>
+            <div class="skill">
+                <img src="images/xd.png" alt="XD">
+                <div class="bar"><div class="level" style="width: 60%;"></div></div>
             </div>
-            <div class="feature">
-                <img src="images/icon3.png" alt="Icon 3">
-                <p>Flexible subscription options ...</p>
+            <div class="skill">
+                <img src="images/an.png" alt="AN">
+                <div class="bar"><div class="level" style="width: 85%;"></div></div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
     <footer>
-        <p>Contact: <a href="mailto:anu.bn@yahoo.com">anu.bn@yahoo.com</a></p>
+        <p>Contact Me</p>
     </footer>
 </body>
 </html>
