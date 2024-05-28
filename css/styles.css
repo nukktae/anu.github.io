@@ -96,16 +96,18 @@ a:hover {
 
 .about-content .side-image {
     flex: 1;
+    max-width: 200px;
 }
 
 .about-content .side-image img {
-    width: 100px;
+    width: 100%;
     height: auto;
 }
 
 .about-content .about-text {
     flex: 2;
     padding: 0 20px;
+    max-width: 600px;
 }
 
 .about-text h2 {
