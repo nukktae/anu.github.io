@@ -88,34 +88,34 @@ a:hover {
     text-align: center;
 }
 
-.about-content, .skills-content, .experience-content {
+.about-content, .skills-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.about-content .side-image, .skills-content .side-image, .experience-content .side-image {
+.about-content .side-image, .skills-content .side-image {
     flex: 1;
     max-width: 200px;
 }
 
-.about-content .side-image img, .skills-content .side-image img, .experience-content .side-image img {
+.about-content .side-image img, .skills-content .side-image img {
     width: 100%;
     height: auto;
 }
 
-.about-content .about-text, .skills-content .skills-text, .experience-content .experience-text {
+.about-content .about-text, .skills-content .skills-text {
     flex: 2;
     padding: 0 20px;
     max-width: 600px;
 }
 
-.about-text h2, .skills-text h2, .experience-text h2 {
+.about-text h2, .skills-text h2 {
     font-size: 2em;
     margin-bottom: 20px;
 }
 
-.about-text p, .skills-text p, .experience-text p {
+.about-text p, .skills-text p {
     font-size: 1.2em;
     margin: 10px 0;
 }
@@ -152,18 +152,17 @@ a:hover {
     border-radius: 5px 0 0 5px;
 }
 
-.experience-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
 }
 
 .section-box {
     background-color: #1a3d4f;
     padding: 20px;
-    margin: 20px 0;
-    width: 80%;
-    max-width: 800px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -194,7 +193,7 @@ a:hover {
     background-color: #f2b13f;
     border-radius: 50%;
     position: absolute;
-    left: 0;
+    left: -10px;
     top: 0;
     bottom: 0;
     margin: auto;
