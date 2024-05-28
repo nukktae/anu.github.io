@@ -81,3 +81,39 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+#about {
+    padding: 50px 20px;
+    position: relative;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content .side-image {
+    flex: 1;
+}
+
+.about-content .side-image img {
+    width: 100px;
+    height: auto;
+}
+
+.about-content .about-text {
+    flex: 2;
+    padding: 0 20px;
+}
+
+.about-text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
