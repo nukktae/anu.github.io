@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Nunito', sans-serif;
     background-color: #162336;
     color: #f2b13f;
     text-align: center;
@@ -11,6 +11,7 @@ header {
 }
 
 header h1 {
+    font-family: 'Caveat', cursive;
     font-size: 2em;
     letter-spacing: 2px;
     color: white;
@@ -47,6 +48,7 @@ nav ul li a:hover {
 }
 
 #home h2 {
+    font-family: 'Caveat', cursive;
     font-size: 2em;
     margin-top: 20px;
 }
@@ -111,11 +113,13 @@ a:hover {
 }
 
 .about-text h2, .skills-text h2 {
+    font-family: 'Caveat', cursive;
     font-size: 2em;
     margin-bottom: 20px;
 }
 
 .about-text p, .skills-text p {
+    font-family: 'Nunito', sans-serif;
     font-size: 1.2em;
     margin: 10px 0;
 }
@@ -174,6 +178,7 @@ a:hover {
 }
 
 .section-box h2 {
+    font-family: 'Caveat', cursive;
     font-size: 2em;
     margin-bottom: 20px;
     color: #f2b13f;
@@ -217,6 +222,7 @@ a:hover {
 }
 
 .timeline-year {
+    font-family: 'Caveat', cursive;
     font-size: 1.2em;
     font-weight: bold;
     color: #f2b13f;
@@ -224,6 +230,7 @@ a:hover {
 }
 
 .timeline-content p {
+    font-family: 'Nunito', sans-serif;
     color: #fff;
 }
 
@@ -239,10 +246,12 @@ a:hover {
 }
 
 .language-item h3 {
+    font-family: 'Caveat', cursive;
     font-size: 1.5em;
     margin-bottom: 10px;
 }
 
 .language-item p {
+    font-family: 'Nunito', sans-serif;
     font-size: 1.2em;
 }
