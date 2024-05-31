@@ -102,11 +102,13 @@ a:hover {
     flex: 1;
     max-width: 200px;
     margin: 0;
+    position: relative;
 }
 
 .about-content .side-image img, .skills-content .side-image img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
 .about-content .about-text, .skills-content .skills-text {
