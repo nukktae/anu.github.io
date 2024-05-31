@@ -99,6 +99,7 @@ a:hover {
 .about-content .side-image, .skills-content .side-image {
     flex: 1;
     max-width: 200px;
+    margin: 0; /* Remove margin to eliminate gaps */
 }
 
 .about-content .side-image img, .skills-content .side-image img {
